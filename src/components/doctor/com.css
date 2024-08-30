@@ -1,0 +1,79 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+
+.hh{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 100px;
+}
+.ccontainer{
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.ccontainer header {
+  font-size: 4.5rem;
+  color: #1eb2a6;
+  font-weight: 200;
+  text-align: center;
+}
+.ccontainer .ic{
+  font-size: 4.5rem;
+  color: #1eb2a6;
+  font-weight: 200;
+  text-align: center;
+}
+.ccontainer .form {
+  margin-top: 30px;
+}
+
+button {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  padding: 14px 22px;
+  border: none;
+  background: #1eb2a6;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #1eb2a6;
+}
+button.show-modal,
+.modal-box {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ccontainer h2 {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  color: #1eb2a6;
+  text-align: center;
+}
+.modal-box h3 {
+  font-size: 16px;
+  font-weight: 400;
+ 
+  text-align: center;
+}
+.modal-box .buttons {
+  margin-top: 25px;
+}
+.modal-box button {
+  font-size: 14px;
+  padding: 6px 12px;
+  margin: 0 10px;
+}
